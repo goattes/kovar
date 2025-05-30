@@ -74,3 +74,135 @@ html.lenis, html.lenis body {
 .lenis.lenis-smooth iframe {
   pointer-events: none;
 }
+
+.facts-container {
+  text-align: center;
+  background-color: #1f2a36;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.facts-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  color: #fff5cc;
+  font-family: "Poppins", sans-serif;
+}
+
+.facts-img {
+
+  max-width: 25rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.facts-text {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  background-color: #818a93;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Hind", sans-serif;
+}
+
+.facts-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffb347;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.facts-button {
+  padding-bottom: 1rem;
+}
+.facts-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facts-btn:hover {
+  background-color: #ff9f10;
+    transition: background-color 0.3s;
+}
+.cats-container {
+  text-align: center;
+  background-color: #1f2a36;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.cats-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  color: #fff5cc;
+}
+
+.cats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.cats-img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.cats-button{
+    padding-bottom: 2rem;
+}
+.cats-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffb347;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cats-btn:hover {
+    background-color: #ff9f10;
+}
+.navbar {
+    text-align: center;
+  font-family: Arial, sans-serif;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.enlarged-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.close-btn {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+}

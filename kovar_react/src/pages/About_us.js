@@ -1,7 +1,7 @@
+import { useEffect, useState } from "react"
+
 export default function About(){
-    return( 
-    <div>
-        wewewewewewwe
-    </div>
-    );
+    //definice stavu
+
+
 }

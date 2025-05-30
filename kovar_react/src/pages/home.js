@@ -1,12 +1,16 @@
 import Cabbit from "../assets/cabbit.jpg"
 import CoreNavbar from "../components/navbar"
+import "../App.css";
+import "../index.css";
 
-export default function Home(){
+export default function home(){
     return( 
     <>
-    <div>
+    <div classname="navbar">
         <CoreNavbar/>
-    <img src={Cabbit}></img>
+    </div>
+    <div className="facts-container">
+        <img src={Cabbit}></img>
     </div>
     </>
     )
